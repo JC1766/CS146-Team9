@@ -1,0 +1,16 @@
+html, body, header, footer, hgroup, nav, main, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+img {
+    border-collapse: collapse;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: auto;
+}

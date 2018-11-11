@@ -91,13 +91,18 @@ p{
 
 }
 @media only screen and (max-width:800px) and (min-width:401px) {
-    img{
+    img {
         width: 50%;
         height: 50%;
         display: block;
         margin: auto;
     }
-    a{
+    .star {
+        display: inline;
+        height: 1em;
+        width: auto;
+    }
+    a {
         margin: 10px;
         word-wrap: break-word;
     }
@@ -109,22 +114,20 @@ p{
         text-align: center;
         margin-bottom: 0px;
     }
-  img{
-    width: 50%;
-    height: 50%;
-    display: block;
-    margin: auto;
-  }
-  .change-petition {
+    .star {
+        display: inline;
+        height: 1em;
+        width: auto;
+    }
+    img {
         width: 100%;
         height: auto;
         display: block;
-        margin: 0%;
+        margin: auto;
     }
-    a{
+    a {
         margin: 10px;
         word-wrap: break-word;
-
     }
 
   }

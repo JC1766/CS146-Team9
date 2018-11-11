@@ -34,6 +34,7 @@ a{
     max-width: 425px;
 }
 .terms {
+    background-color: lightgray;
     display: inline;
     color: darkblue;
     font-weight: normal;

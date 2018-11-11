@@ -23,6 +23,10 @@ body{
     align-items: center;
     justify-content; center;
 }
+.Appointments {
+    margin-top: -15px;
+    padding-top: 0%;
+}
 a{
     text-decoration: none;
     font-weight: bold;
@@ -90,7 +94,7 @@ p{
 @media only screen and (min-width:801px){
 
 }
-@media only screen and (max-width:800px) and (min-width:401px) {
+@media only screen and (max-width:800px) and (min-width:413px) {
     img {
         width: 75%;
         height: auto;
@@ -107,12 +111,15 @@ p{
         word-wrap: break-word;
     }
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 412){
   h1 {
         font-size: auto;
         width: 100%;
         text-align: center;
         margin-bottom: 0px;
+    }
+    .content p {
+        text-align: center;
     }
     .star {
         display: inline;
@@ -129,5 +136,14 @@ p{
         margin: 10px;
         word-wrap: break-word;
     }
-
+    .nav ul {
+        padding: 0%;
+    }
+    .nav ul li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 48.8%;
+        border-collapse: collapse;
+        border: 2px solid darkblue;
+    }
   }

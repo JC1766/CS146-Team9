@@ -1,0 +1,112 @@
+
+header{
+    background-color: darkblue;
+    color: white;
+}
+
+body{
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    background-color: lightgray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.content{
+    padding 0% 1% 1% 1%;
+    max-width: 100%;
+    line-height: 1.4;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+    max-width: 425px;
+}
+
+.nav ul{
+    background-color: lightsteelblue;
+    list-style: none;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+}
+
+#lv{
+    width:600px;
+    height:120px;
+    border:2px dashed green;
+    cursor:pointer;
+}
+
+#LV{
+    width:650px;
+    height:120px;
+    border:2px dashed green;
+    cursor:pointer;
+}
+
+#lin{
+    width:600px;
+    height:150px;
+    border:2px dashed green;
+    cursor:pointer;
+}
+
+ul{font-style:oblique;}
+
+#lin:hover{
+    background-color: yellow;
+}
+#lv:hover{
+    background-color: yellow;
+}
+#LV:hover{
+    background-color: yellow
+}
+.nav ul li a:hover{
+    color:green;
+    text-decoration: underline;
+}
+#solutions{
+    background-color: white;
+    width: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+}
+p{
+    background-color: white;
+}
+
+@media only screen and (min-width:801px){
+
+}
+@media only screen and (max-width:800px) and (min-width:401px) {
+    img{
+        width: 50%;
+        height: 50%;
+        display: block;
+        margin: auto;
+    }
+    a{
+        margin: 10px;
+        word-wrap: break-word;
+    }
+}
+@media only screen and (max-width: 400px){
+  img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+  }
+  a{
+    margin: 10px;
+    word-wrap: break-word;
+
+  }
+
+  }

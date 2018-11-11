@@ -33,7 +33,12 @@ a{
     color: darkblue;
     max-width: 425px;
 }
-
+.terms {
+    display: inline;
+    color: darkblue;
+    font-weight: normal;
+    text-decoration: underline;
+}
 .nav ul{
     background-color: lightsteelblue;
     list-style: none;

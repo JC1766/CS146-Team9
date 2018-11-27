@@ -21,7 +21,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content; center;
+    justify-content: center;
 }
 .Appointments {
     margin-top: -15px;
@@ -78,7 +78,7 @@ ul{font-style:oblique;}
     background-color: yellow;
 }
 #LV:hover{
-    background-color: yellow
+    background-color: yellow;
 }
 .nav ul li a:hover{
     color:green;
@@ -116,7 +116,7 @@ p{
         word-wrap: break-word;
     }
 }
-@media only screen and (max-width: 412){
+@media only screen and (max-width: 412) and (min-width:0px) {
   h1 {
         font-size: auto;
         width: 100%;

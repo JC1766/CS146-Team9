@@ -4,6 +4,7 @@
         <title>Gradarius - Problems</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="js/problems.js"></script>
     </head>
         <header>
         <h1>Dang it Gradarius</h1>
@@ -17,6 +18,36 @@
         </div>
     </header>
     <body>
+    <form name="problemForm">
+      <h2>Add problem:</h2>
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="name" required/>
+      </div>
+      <div>
+        <label for="image">Image</label>
+        <input id="image" name="image" type="file" placeholder="image" required/>
+      </div>
+      <div>
+        <label for="type">Type</label>
+        <input id="type" name="type" type="text" placeholder="type" required/>
+      </div>
+      <div>
+        <label for="degree">Degree</label>
+        <select name="degree" id="degree">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+      <div>
+        <label for="reason">Reason</label>
+        <textarea id="reason" name="reason" required></textarea>
+      </div>
+      <div>
+        <button type="submit" id="add">Add</button>
+      </div>
+    </form>
       <div class="content">
         <h3>Problem 1</h3>
         <img src="images/Problem1.png" alt="Problem1" width="600" height="auto">

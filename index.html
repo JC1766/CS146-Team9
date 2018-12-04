@@ -5,6 +5,7 @@
         <title>Gradarius - Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="js/index.js"></script>
     </head>
         <header>
         <h1>Dang it Gradarius</h1>
@@ -18,9 +19,31 @@
     <body>
         <div class="content">
             <a href="https://stevens.gradarius.com"><h2>Gradarius</h2></a>
+
+            <form name="loginForm">
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="name" required/>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="email" required/>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password" placeholder="password" required/>
+                </div>
+                <div>
+                    <button type="submit" id="login">Login</button>
+                </div>
+
+            </form>
+
+            <div id="welcome"></div>
+
             <p><img height=300px src="images/Gradarius.png"></p>
             <h3>Hello!</h3>
-            <p>Welcome, fellow sufferers to the ultimate guide that will save from the this unsatiable 
+            <p>Welcome, fellow sufferers to the ultimate guide that will save from the this unsatiable
                 monster called Gradarius.</p>
             <h2>
                 Some Advice
@@ -44,7 +67,7 @@
                     Don't <a href="https://i.ytimg.com/vi/Kr9rIx7MVvg/maxresdefault.jpg">click</a> on this.
                 </li>
             </ul>
-        </div>        
+        </div>
         <p>By accessing this page, you are agreeing to our <a class="terms" href="https://bit.ly/2QhuufY" target="_blank">Terms of Service</a></p>
     </body>
 

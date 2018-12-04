@@ -5,6 +5,7 @@
         <title>Gradarius - About</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="js/about.js"></script>
     </head>
     <header>
         <h1>Dang it Gradarius</h1>
@@ -16,6 +17,20 @@
             </ul></div>
     </header>
     <body>
+    <form name="addForm">
+        <h2>Add people:</h2>
+        <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="name" required/>
+        </div>
+        <div>
+            <label for="desc">Description</label>
+            <input id="desc" name="desc" type="text" placeholder="description" required/>
+        </div>
+        <div>
+            <button type="submit" id="add">Add</button>
+        </div>
+    </form>
         <div class="content">
             <h2>About Us</h2>
             <h3>Zachary Lee</h3>
@@ -30,7 +45,7 @@
             <p>
                 To get an A on this CS146 project, and of course also to help people that are suffering from Gradarius.
             </p>
-        </div>   
+        </div>
         <p>By accessing this page, you are agreeing to our <a class="terms" href="https://bit.ly/2QhuufY" target="_blank">Terms of Service</a></p>
      </body>
 </html>

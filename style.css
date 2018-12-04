@@ -16,7 +16,7 @@ body{
 .content{
     padding: 0% 1% 1% 1%;
     max-width: 100%;
-    line-height: 1.4;
+    line-height: 1.4cm;
     background-color: white;
     display: flex;
     flex-direction: column;
